@@ -20,13 +20,9 @@ average_grade = [
 # print(students)
 # print(grade)
 # print(average_grade)
-
-
-
 # print(sort_students)
 
                                                      # составить словарь
-
 mark_list = {}
 
 b = average_grade[0]
