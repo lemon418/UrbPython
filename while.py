@@ -5,4 +5,5 @@ int = 0
 while int < len_list:
     print(my_list[int])
     int += 1
+
 print('Всё!')
