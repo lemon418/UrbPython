@@ -14,13 +14,11 @@ for i in range(len(numbers)):
             not_primes.append(num)
             break
 
-
 for i in range(len(numbers) + 1 ):
     for j in not_primes:
         if i == j:
             primes.remove(i)
 primes.remove(1)
-
 
 print('Primes: ', primes)
 print('Not Primes: ', not_primes)
