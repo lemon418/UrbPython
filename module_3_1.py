@@ -7,8 +7,7 @@ def count():
 
 def string_info(string):
     count()
-    lent = len(string)
-    return lent, string.upper(), string.lower()
+    return len(string), string.upper(), string.lower()
 
 def is_contains(string, list_to_search):
     count()
