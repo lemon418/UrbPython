@@ -17,5 +17,5 @@ def single_root_words(root_word, *other_words):
     print(same_words)
     return same_words
 
-same = single_root_words('rich', 'richiest', 'orichalcum', 'cheers', 'richies')
+single_root_words('rich', 'richiest', 'orichalcum', 'cheers', 'richies')
 single_root_words('Disablement', 'Able', 'Mable', 'Disable', 'Bagel')
