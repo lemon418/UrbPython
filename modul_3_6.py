@@ -19,19 +19,13 @@ def summ_(*object):
         if isinstance(el, str):
             count += len(el)
 
-        if isinstance(el, list):
+        if  isinstance(el, tuple | set | list):
             summ_(*el)
 
         if isinstance(el, dict):
             for i in el:
-                 count += len(i)
-                 count += el[i]
-
-        if  isinstance(el, tuple):
-            summ_(*el)
-
-        if  isinstance(el, set):
-            summ_(*el)
+                count += len(i)
+                count += el[i]
 
 summ_(*data_structure)
 
