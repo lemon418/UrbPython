@@ -27,6 +27,7 @@ def summ_(*object):
                 count += len(i)
                 count += el[i]
 
-summ_(*data_structure)
+    return count
 
-print('count: ', count)
+
+print(summ_(*data_structure))
