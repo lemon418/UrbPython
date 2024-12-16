@@ -29,5 +29,4 @@ def summ_(*object):
 
     return count
 
-
 print(summ_(*data_structure))
