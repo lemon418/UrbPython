@@ -17,7 +17,6 @@ class House():
     def __str__(self):
         return f"Название: {self.name}, кол-во этажей: {self.numbers_of_floor}"
 
-
 hotel = House('Hotel', 18)
 yalta = House('ЖК "Yalta"', 20)
 
